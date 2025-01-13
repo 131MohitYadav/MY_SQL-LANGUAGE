@@ -1,0 +1,20 @@
+/// MY SQL 
+
+
+// STEP 1 -> TO CREATE DATABASE
+COMMAND: CREATE DATABASE DATABASE NAME;
+
+// STEP 2 ->
+COMMAN : SHOW DATABASES;
+
+// STEP 3 ->
+COMMAND:
+create table Jain13(
+sid int primary key,
+name varchar(42),
+enroll varchar(45),
+per float
+};
+
+// STEP 4 -> 
+COMMAND: DESC DATABASE NAME;
