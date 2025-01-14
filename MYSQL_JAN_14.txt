@@ -1,0 +1,15 @@
+
+FOR INSERT
+insert into jain14 values ( 101 , ' Mohit', '012CS01',54.56,54,23,24,24,82,325);
+
+or 
+FOR INSERT
+insert into jain14(sid,name,enroll,per) values ( 101,'Rohit','01CS02',56.24);
+
+
+
+FOR UPDATION
+update  jain14  set  name = 'manish', enroll = '011CS23' where sid = 103;
+
+FOR DELETE
+delete from jain14 where sid = 103;
