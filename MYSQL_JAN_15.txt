@@ -1,0 +1,61 @@
+insert into customer values(
+6,'Mohit','Yadav','England',21,88969587
+);
+
+// for updating
+
+update customer set CustomerID = 1  where CustomerID = 2;
+
+update customer set  Phone = 45789658 where CustomerID = 5;
+
+
+
+
+// for jain14
+
+update jain14 set sid = 102 , enroll = 
+'013CS02', p = 54 , c = 87 , m = 89 , h = 32 , e = 23 , total = 314 where sid = 101;
+
+
+
+insert into jain14 values(
+103,'Manish','0111CS221131',92.23,23,32,52,35,32,315
+);
+
+
+insert into jain14 values(
+(102,'Manish','0111CS221132',90.73,43,82,52,35,32,300),
+(103,'Mansi','0111CS221133',91.73,48,82,72,35,32,300)
+
+);
+
+// EMP TABLE DATABASE
+
+CREATE TABLE EMP (
+EMP_NO INT PRIMARY KEY,
+NAME VARCHAR(45),
+SALARY FLOAT,
+JOB VARCHAR(42),
+GENDER CHAR(2),
+HIREDATE VARCHAR(42),
+COMM INT,
+DEPT_NO INT
+);
+
+INSERT INTO EMP  VALUES(
+115,'AYUSHI',44500.23,'MANAGER','F',
+'2025-01-22',79,30
+);
+
+
+(103,'MANISH',42000.23,'SALESMAN','M',
+'2025-01-16',54,30),
+);
+
+
+
+
+
+
+
+
