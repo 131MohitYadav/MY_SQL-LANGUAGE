@@ -1,0 +1,25 @@
+Q1. Write a SQL Query to print data of
+all employee whose salary is greater
+than 15000 and less than 20000?
+
+ANS -> SELECT * FROM EMP WHERE SALARY > 39000 AND SALARY < 45000;
+
+
+// BETWEEN OPERATOR FILTER THE RESULT OF TABLE 
+
+// Q1. Write a SQL Query to print data of
+all employee whose salary BETWEEN 40000 AND 450000?
+
+ANS -> SELECT * FROM EMP WHERE SALARY BETWEEN 40000 AND 45000;
+
+
+Q2. Write a SQL query to print data of all
+employee whose deptno is 10 or 20 or 30?
+
+ANS -> SELECT * FROM EMP WHERE DEPT_NO = 10 OR  DEPT_NO = 20 OR DEPT_NO = 30;
+
+OR 
+
+We used IN operator
+
+SELECT * FROM EMP WHERE DEPT_NO IN(10,20,30);
