@@ -1,0 +1,30 @@
+// LEFT JOIN OR LEFT OUTER JOIN
+
+COMMAND -> SELECT * FROM EMP LEFT JOIN DEPT ON EMP.DEPT_NO = DEPT.DEPT_NO;
+
+		OR
+
+COMMAND -> SELECT * FROM EMP_1 LEFT JOIN DEPT_1 ON EMP_1.DEPT_NO = DEPT_1.DEPT_NO;
+
+// Write a sql query to print data empno,sal,job,deptno,dname,loc from emp and dept table;
+
+ans -> SELECT EMP_NO,SALARY,EMP_1.DEPT_NO,D_NAME,LOCATION FROM EMP_1 LEFT JOIN DEPT_1 ON EMP_1.DEPT_NO = DEPT.DEPT_NO;
+
+
+Example:
+Write a SQL Query to print data of all
+employee whose salary is greater than
+average salary of the all employee?
+
+ANS -> SELECT * FROM EMP_1 WHERE SALARY >(SELECT AVG(SALARY) FROM EMP_1;
+
+Q1. Write a Sql Query to print data of
+employee whose salary is the largest in
+the emp table?
+
+ANS -> SELECT * FROM EMP_1 WHERE SALARY > ( SELECT MAX(SALARY) FROM EMP_1);
+
+
+// Find ALL employess who belongs to departments located in the INDORE
+
+ans -> SELECT NAME,DEPT_NO FROM EMP_1 WHERE DEPT_NO IN(SELECT DEPT_NO FROM DEPT_1 WHERE LOCATION = 'INDORE');
