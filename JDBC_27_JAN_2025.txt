@@ -1,0 +1,29 @@
+ConnectionPool.java(com.ram.utility)
+//step1
+//step2
+	Connection connectDB();
+//Table(Student)==================>StudentBean===========>DAO(StudentDAO)
+		sid====Member data===>private int sid;			int addStudent(StudentBean)        C
+		name				private String name;		int updateStudent(StudentBean)    U
+		enroll				private String enroll;		int deleteStudent(int id)			D
+		p					private int p;				ArrayList<StudentBeans> findAll() R
+		c					private int c;				StudentBean findById(int sid)         R
+		m					private int m;
+		h					private int h;
+		e					private int e;
+		total					private int total;
+		per					private float per;
+							//constructor
+							//getter/setter
+
+=========================================================
+step1: Create JDBCProjectJan27(webProject)
+step2: Create three package
+	
+	com.ram.bean
+			StudentBean.java
+	com.ram.dao
+			StudentDAO.java
+			
+	com.ram.utility
+			ConnectionPool.java
